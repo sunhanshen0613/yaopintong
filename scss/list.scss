@@ -1,0 +1,26 @@
+.list-content{
+  margin-top:44px;
+  padding:0;
+  .row{
+    padding:0;
+    border:0;
+    .col{
+      text-align: center;
+      padding:0;
+      height:120px;
+      border-right:1px solid #dcdcdc;
+      border-bottom:1px solid #dcdcdc;
+      &:nth-child(3){
+        border-right:0;
+      }
+      img{
+        margin-top:30px;
+      }
+      p{
+        color:#9a9a9a;
+        font-size: 10px;
+      }
+    }
+
+  }
+}

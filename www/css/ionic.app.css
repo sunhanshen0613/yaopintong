@@ -9815,7 +9815,22 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
-#aa {
-  width: 100px;
-  height: 100px;
-  background: pink; }
+.list-content {
+  margin-top: 44px;
+  padding: 0; }
+  .list-content .row {
+    padding: 0;
+    border: 0; }
+    .list-content .row .col {
+      text-align: center;
+      padding: 0;
+      height: 120px;
+      border-right: 1px solid #dcdcdc;
+      border-bottom: 1px solid #dcdcdc; }
+      .list-content .row .col:nth-child(3) {
+        border-right: 0; }
+      .list-content .row .col img {
+        margin-top: 30px; }
+      .list-content .row .col p {
+        color: #9a9a9a;
+        font-size: 10px; }
